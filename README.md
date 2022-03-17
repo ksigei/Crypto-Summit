@@ -2,7 +2,7 @@
 
 # Project Name
 
-> World Crypto Summit-Module 1 capstone project
+> World Crypto Summit-HTML/CSS & JavaScript capstone project - Conference page
 
 ![screenshot](./images/screenshot.png)
 ![screenshot](./images/screenshot1.png)
