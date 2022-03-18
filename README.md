@@ -22,7 +22,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://ksigei.github.io/Crypto-Summit/)
+[Live Demo Link](https://ksigei.github.io/world_crypto_summit/)
 
 
 
