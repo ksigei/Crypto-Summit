@@ -192,17 +192,12 @@
     width: 100vw;
   }
 
-  .info_section .bg_info {
+  .info_section .info_wrapper {
     background-image: url(../images/bg_info.jpg);
-    filter: blur(1px);
-    -webkit-filter: blur(1px);
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-  }
-
-  .info_section .info_wrapper {
     display: -webkit-box;
     display: flex;
     -webkit-box-orient: vertical;
@@ -211,13 +206,8 @@
     flex-direction: column;
     font-weight: bold;
     position: absolute;
-    top: 55%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
     z-index: 2;
     width: 100%;
-    height: 100vh;
     padding: 20px;
     gap: 10px;
   }
@@ -262,37 +252,27 @@
     width: 100vw;
   }
 
-  .info_section .bg_info {
+  .info_section .info_wrapper {
     background-image: url(../images/bg_info.jpg);
-    filter: blur(3px);
-    -webkit-filter: blur(3px);
-    height: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-  }
-
-  .info_section .info_wrapper {
     display: -webkit-box;
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
-    position: absolute;
-    top: 55%;
-    left: 60%;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+    justify-content: center;
+    margin: auto;
     z-index: 2;
     width: 100%;
     height: 100%;
-    padding: 20px;
     gap: 20px;
   }
 
   .info_section .info_wrapper .info_title h3 {
-    margin-top: 15%;
+    margin: 0 0 0 15%;
     color: #ec5242;
     font-size: 60px;
     font-weight: bold;
@@ -300,6 +280,7 @@
   }
 
   .info_section .info_wrapper .info_header h3 {
+    margin: 0 0 0 15%;
     font-size: 80px;
     background-image: repeating-linear-gradient(to bottom left, #f00d0d 5%, #ec5242 10%, #3a0f0f 20%);
     -webkit-background-clip: text;
@@ -307,10 +288,10 @@
   }
 
   .info_section .info_wrapper .info_description {
+    margin: 0 0 0 15%;
     border: 2px solid #fff;
     height: 15vh;
     width: 40vw;
-    margin: 0 0 0 2vw;
   }
 
   .info_section .info_wrapper .info_description p {
@@ -318,11 +299,13 @@
   }
 
   .info_section .info_wrapper .info_dates h3 {
+    margin: 0 0 0 15%;
     color: #272a31;
     font-size: 25px;
   }
 
   .info_section .info_wrapper .info_dates p {
+    margin: 0 0 0 15%;
     font-size: 20px;
     color: #272a31;
   }
@@ -742,17 +725,12 @@
 }
 
 @media screen and (max-width: 768px) {
-  .container .about_info_section .about_bg_info {
+  .container .about_info_section .about_info_wrapper {
     background-image: url(../images/bg_info.jpg);
-    filter: blur(3px);
-    -webkit-filter: blur(3px);
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-  }
-
-  .container .about_info_section .about_info_wrapper {
     display: -webkit-box;
     display: flex;
     -webkit-box-orient: vertical;
@@ -821,17 +799,12 @@
 }
 
 @media screen and (min-width: 768px) {
-  .container .about_info_section .about_bg_info {
+  .container .about_info_section .about_info_wrapper {
     background-image: url(../images/bg_info.jpg);
-    filter: blur(3px);
-    -webkit-filter: blur(3px);
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-  }
-
-  .container .about_info_section .about_info_wrapper {
     display: -webkit-box;
     display: flex;
     -webkit-box-orient: vertical;
@@ -971,16 +944,10 @@
   padding-bottom: 15vh;
 }
 
-.container .past_summits .summit_imgs .bg-image {
+.container .past_summits .summit_imgs .bg-text {
   background-image: url("../images/bg_dark.jpg");
-  filter: blur(8px);
-  -webkit-filter: blur(8px);
-  height: 100%;
   background-position: 0 0;
   background-repeat: no-repeat;
-}
-
-.container .past_summits .summit_imgs .bg-text {
   background-color: black;
   background-color: rgba(0, 0, 0, 0.4);
   color: white;
