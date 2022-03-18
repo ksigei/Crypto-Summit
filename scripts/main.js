@@ -86,5 +86,5 @@ apiData.forEach((data) => {
         </div>
     `;
 
-    container.innerHTML += content;
+  container.innerHTML += content;
 });
