@@ -4,11 +4,11 @@
 
 > World Crypto Summit-HTML/CSS & JavaScript capstone project - Conference page
 
-![screenshot](./images/sreenshots/ss.png)
-![screenshot](./images/sreenshots/ss1.png)
-![screenshot](./images/sreenshots/ss2.png)
-![screenshot](./images/sreenshots/ss3.png)
-![screenshot](./images/sreenshots/ss4.png)
+![screenshot](./images/ss.png)
+![screenshot](./images/ss1.png)
+![screenshot](./images/ss2.png)
+![screenshot](./images/ss3.png)
+![screenshot](./images/ss4.png)
 
 
 ## Built With
