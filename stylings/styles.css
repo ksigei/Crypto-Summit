@@ -41,7 +41,7 @@
   }
 
   nav .logo {
-    background: url("../../images/bitcoin-cash-bch-logo.svg") no-repeat;
+    background: url("../images/bitcoin-cash-bch-logo.svg") no-repeat;
     width: 5vw;
     height: 10vh;
     margin: 2vh 0 0 12vw;
@@ -193,7 +193,7 @@
   }
 
   .info_section .bg_info {
-    background-image: url(../../images/bg_info.jpg);
+    background-image: url(../images/bg_info.jpg);
     filter: blur(1px);
     -webkit-filter: blur(1px);
     height: 100%;
@@ -263,7 +263,7 @@
   }
 
   .info_section .bg_info {
-    background-image: url(../../images/bg_info.jpg);
+    background-image: url(../images/bg_info.jpg);
     filter: blur(3px);
     -webkit-filter: blur(3px);
     height: 100%;
@@ -330,7 +330,7 @@
 
 .programs_container {
   width: 100vw;
-  background-image: url("../../images/bg_dark.jpg");
+  background-image: url("../images/bg_dark.jpg");
   background-size: 100vw 100%;
   background-position: 0 0;
   background-repeat: no-repeat;
@@ -522,7 +522,7 @@
   }
 
   .speakers_container .cards .speakers_card .speaker_card_img {
-    background-image: url(../../images/chess.svg);
+    background-image: url(../images/chess.svg);
     background-size: 17vh 7vw;
     background-position: 0 0;
     background-repeat: no-repeat;
@@ -559,7 +559,7 @@
 
 @media screen and (max-width: 768px) {
   .speakers_container .speakers_card .speaker_card_img {
-    background-image: url(../../images/chess.svg);
+    background-image: url(../images/chess.svg);
     background-size: 17vh 20vw;
     background-position: 0 0;
     background-repeat: no-repeat;
@@ -743,7 +743,7 @@
 
 @media screen and (max-width: 768px) {
   .container .about_info_section .about_bg_info {
-    background-image: url(../../images/bg_info.jpg);
+    background-image: url(../images/bg_info.jpg);
     filter: blur(3px);
     -webkit-filter: blur(3px);
     height: 100%;
@@ -822,7 +822,7 @@
 
 @media screen and (min-width: 768px) {
   .container .about_info_section .about_bg_info {
-    background-image: url(../../images/bg_info.jpg);
+    background-image: url(../images/bg_info.jpg);
     filter: blur(3px);
     -webkit-filter: blur(3px);
     height: 100%;
@@ -972,7 +972,7 @@
 }
 
 .container .past_summits .summit_imgs .bg-image {
-  background-image: url("../../images/bg_dark.jpg");
+  background-image: url("../images/bg_dark.jpg");
   filter: blur(8px);
   -webkit-filter: blur(8px);
   height: 100%;
@@ -1038,7 +1038,7 @@
   }
 
   .container .past_summits .summit_imgs .bg-image {
-    background-image: url("../../images/bg_dark.jpg");
+    background-image: url("../images/bg_dark.jpg");
     filter: blur(8px);
     -webkit-filter: blur(8px);
     height: 100%;
