@@ -1,0 +1,293 @@
+@import 'mixin';
+@import 'colors';
+
+.programs_container {
+  width: 100vw;
+  background-image: url('../../images/bg_dark.jpg');
+  background-size: 100vw 100%;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  justify-content: center;
+  padding-bottom: 1vh;
+
+  .container_title {
+    padding: 5vh 0 0 0;
+    text-align: center;
+  }
+
+  hr {
+    width: 8vw;
+    height: 3px;
+    border-width: 0;
+    margin: 1vh 0 0 45%;
+    background-color: $danger;
+  }
+
+  @include desktop {
+    hr {
+      width: 3vw;
+      height: 3px;
+      border-width: 0;
+      margin: 1vh 0 0 48%;
+      background-color: $danger;
+    }
+  }
+
+  h3 {
+    color: $light;
+  }
+
+  p {
+    margin: 5% 0 0 0;
+    color: $light;
+  }
+
+  @include desktop {
+    .cards {
+      margin: 0 15% 0 15%;
+      height: 65vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 1%;
+    }
+  }
+
+  @include mobile {
+    .cards {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+  @include mobile {
+    .program_card {
+      background-color: $dark;
+      height: 20vh;
+      z-index: 2;
+      opacity: 0.7;
+      margin: 0 5% 0 5%;
+      gap: 6vw;
+
+      .card_i {
+        i {
+          margin: 50%;
+          font-size: 40px;
+          color: $light;
+        }
+      }
+
+      .card_title {
+        width: 40vw;
+
+        h3 {
+          margin: 25% 0 0 0;
+          color: $danger;
+          font-size: 15px;
+        }
+      }
+
+      .card_description {
+        p {
+          font-size: small;
+        }
+      }
+    }
+
+    .cards {
+      gap: 20px;
+      height: 100vh;
+      margin: 5vh 0 0 0;
+    }
+  }
+
+  @include desktop {
+    .program_card {
+      width: 70vw;
+      display: flex;
+      flex-direction: column;
+      background-color: $dark;
+      height: 30vh;
+      opacity: 0.6;
+
+      .card_i {
+        i {
+          margin: 5% 0 5% 40%;
+          font-size: 40px;
+          color: $light;
+        }
+      }
+
+      .card_title {
+        text-align: center;
+
+        h3 {
+          color: $danger;
+          font-size: 15px;
+        }
+      }
+
+      .card_description {
+        text-align: center;
+        margin: 6%;
+        opacity: 1;
+
+        p {
+          color: $light;
+          font-size: 12px;
+        }
+      }
+    }
+  }
+}
+
+.pg_more {
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 20vh;
+
+  h3 {
+    text-align: center;
+    text-decoration: underline;
+  }
+}
+
+.speakers_container {
+  background-color: $grayish;
+
+  .container_title {
+    padding: 5vh 0 0 0;
+    text-align: center;
+
+    p {
+      color: $dark;
+    }
+  }
+
+  @include desktop {
+    .cards {
+      display: grid;
+      grid-template-columns: auto auto;
+      margin: 10%;
+      width: 80vw;
+
+      .speakers_card {
+        margin: 0 5% 0 3%;
+        gap: 5vw;
+        background-color: $grayish;
+
+        .speaker_card_img {
+          background-image: url(../../images/chess.svg);
+          background-size: 17vh 7vw;
+          background-position: 0 0;
+          background-repeat: no-repeat;
+
+          img {
+            width: 10vw;
+            height: 18vh;
+            margin: 20%;
+          }
+        }
+
+        .speakers_about {
+          gap: 2vh;
+
+          .speaker_card_title {
+            h3 {
+              color: $dark;
+            }
+          }
+
+          .speaker_card_description_short {
+            p {
+              color: $danger;
+            }
+          }
+
+          .speaker_card_description {
+            p {
+              color: $muted;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .speakers_card {
+    background-color: $light;
+    margin: 0 5% 0 3%;
+    gap: 10vw;
+
+    @include mobile {
+      .speaker_card_img {
+        background-image: url(../../images/chess.svg);
+        background-size: 17vh 20vw;
+        background-position: 0 0;
+        background-repeat: no-repeat;
+
+        img {
+          width: 20vw;
+          height: 15vh;
+          margin: 25%;
+        }
+      }
+    }
+
+    .speakers_about {
+      gap: 2vh;
+
+      .speaker_card_title {
+        h3 {
+          color: $dark;
+        }
+      }
+
+      .speaker_card_description_short {
+        p {
+          color: $danger;
+        }
+      }
+
+      .speaker_card_description {
+        p {
+          color: $muted;
+        }
+      }
+    }
+  }
+
+  @include mobile {
+    .cards {
+      width: 100%;
+      height: 100%;
+      margin: 5vh 0 0 0;
+    }
+  }
+}
+
+@include mobile {
+  .pg_btn {
+    height: 15vh;
+    width: 80%;
+    margin: 5% 5% 10% 10%;
+    background-color: $danger;
+
+    h3 {
+      padding: 8%;
+      color: $light;
+    }
+  }
+}
+
+@include desktop {
+  .pg_btn {
+    display: none;
+  }
+}
+
+@include mobile {
+  .pg_more {
+    display: none;
+  }
+}
